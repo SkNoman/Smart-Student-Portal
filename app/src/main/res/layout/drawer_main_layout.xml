@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="30dp" >
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/diulogoside"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textviewname"
+        android:text="Student Portal Login"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="16dp"
+        android:layout_marginTop="40dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student ID*"
+        android:id="@+id/id_etext_student"
+        android:paddingTop="40dp"
+
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password*"
+        android:inputType="textPassword"
+        android:id="@+id/password_etext_student"
+        android:paddingTop="40dp"
+
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:textSize="20dp"
+        android:id="@+id/login_btn_student"
+        android:text="+>Login"
+        android:textAllCaps="false"
+
+        />
+
+</LinearLayout>

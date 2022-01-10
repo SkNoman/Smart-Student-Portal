@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".add_data">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Details"
+            android:background="#FF9800"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Student Name:"
+            android:textColor="@color/black"
+            android:textColorHint="#FA9706"
+            android:id="@+id/name_edit_text"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Student ID:"
+            android:textColor="@color/black"
+            android:textColorHint="#FA9706"
+            android:id="@+id/id_edit_text"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Student Password:"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textColorHint="#FA9706"
+            android:id="@+id/password_edit_text"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Student Email:"
+            android:textColor="@color/black"
+            android:textColorHint="#FA9706"
+            android:id="@+id/email_edit_text"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Student Phone:"
+            android:textColor="@color/black"
+            android:textColorHint="#FA9706"
+            android:id="@+id/phone_edit_text"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Student Department:"
+            android:textColor="@color/black"
+            android:textColorHint="#FA9706"
+            android:id="@+id/dept_edit_text"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Student University:"
+            android:textColor="@color/black"
+            android:textColorHint="#FA9706"
+            android:id="@+id/university_edit_text"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Student Farher Name:"
+            android:textColor="@color/black"
+            android:textColorHint="#FA9706"
+            android:id="@+id/fathername_edit_text"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Student Mother Name:"
+            android:textColor="@color/black"
+            android:textColorHint="#FA9706"
+            android:id="@+id/mothername_edit_text"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Student Family Members:"
+            android:textColor="@color/black"
+            android:textColorHint="#FA9706"
+            android:id="@+id/familymembers_edit_text"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Student Birth Date:"
+            android:textColor="@color/black"
+            android:textColorHint="#FA9706"
+            android:id="@+id/dob_edit_text"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Student Image Link:"
+            android:textColor="@color/black"
+            android:textColorHint="#FA9706"
+     
+            android:id="@+id/imagelink_edit_text"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#FF9800"
+            android:text="Save"
+            android:textSize="30sp"
+            android:id="@+id/btn_save"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:padding="10dp"
+    android:orientation="vertical"
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/std_image"
+        >
+
+
+    </ImageView>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Noman"
+    android:textSize="20sp"
+    android:id="@+id/std_name"
+    />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="noman"
+        android:textSize="20sp"
+        android:id="@+id/std_fathern"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="noman"
+        android:textSize="20sp"
+        android:id="@+id/std_mothern"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="noman"
+        android:textSize="20sp"
+        android:id="@+id/std_familym"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Noman"
+        android:textSize="20sp"
+        android:id="@+id/std_id"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="noman"
+        android:textSize="20sp"
+        android:id="@+id/std_email"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="noman"
+        android:textSize="20sp"
+        android:id="@+id/std_phone"
+        />
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="noman"
+        android:textSize="20sp"
+        android:id="@+id/std_bodid"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="noman"
+        android:textSize="20sp"
+        android:id="@+id/std_major"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="noman"
+        android:textSize="20sp"
+        android:id="@+id/std_university"
+        />
+
+
+
+</LinearLayout>

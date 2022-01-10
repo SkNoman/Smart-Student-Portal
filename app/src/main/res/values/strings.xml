@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Student Portal</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+
+    <string name="studen_login_text"><u>Student Portal Login</u>.</string>
+</resources>

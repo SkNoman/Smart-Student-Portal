@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2196F3"
+    tools:context=".Admin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:text="Admin Panel"
+        android:background="#2196F3"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:padding="60sp"
+        >
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_data_btn"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_add_24"
+            android:backgroundTint="#03A9F4"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Data"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/view_data_btn"
+            android:layout_width="43dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:backgroundTint="#03A9F4"
+            android:src="@drawable/ic_baseline_data_view_24" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Data"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="50dp"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
